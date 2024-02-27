@@ -297,54 +297,6 @@
             modalPopupDiscount.setTimeout(15);
             modalPopupDiscount.setBanEmail(['@mailinator.com', 'rocketmail.co']);
         </script>
-        <div class="popup__discount">
-            <div class="popup__discount__transparent"></div>
-            <div class="popup__discount__modal">
-                <div class="popup__discount__modal-body">
-                    <div class="popup__discount__modal-body-close" onclick="modalPopupDiscount.closePopup(this)"></div>
-                    <div class="popup__discount__modal-body-main-text">Save money with our special discount!
-            </div>
-                    <!--            <div class="popup__discount__modal-body-secondary-text">-->
-                    <!--                Get a bargain with our-->
-                    <!--                <div class="two-row">special discount!</div>-->
-                    <!--            </div>-->
-                    <form class="popup__discount__form" onsubmit="modalPopupDiscount.submitForm(this);return false;">
-                        <div class="popup__discount__form-row" id="name-modal">
-                            <!--                    <p class="modal-label">Name</p>-->
-                            <div class="popup__discount__form-row-group">
-                                <input type="text" name="name" data-type="text" data-required="true" placeholder="Name" onkeyup="modalPopupDiscount.removeFieldError(this)">
-                                <p class="modal-error">Please, write your name</p>
-                            </div>
-                        </div>
-                        <div class="popup__discount__form-row" id="email-modal">
-                            <!--                    <p class="modal-label">Email</p>-->
-                            <div class="popup__discount__form-row-group">
-                                <input type="text" name="email" data-type="email" data-required="true" placeholder="E-mail" onkeyup="modalPopupDiscount.removeFieldError(this)">
-                                <p class="modal-error">Please, write a valid email </p>
-                            </div>
-                        </div>
-                        <div class="popup__discount__form-row no-margin">
-                            <button class="popup__discount__form-row-submit-button butn butn-red">SEND ME DISCOUNT</button>
-                            <div class="popup__discount__modal-close-button" onclick="modalPopupDiscount.closePopup(this)">No, thanks</div>
-                            <!--                    <div class="light__env">-->
-                            <!--                        <span class="env fr"></span>-->
-                            <!--                        <span class="env sc"></span>-->
-                            <!--                        <span class="env tr"></span>-->
-                            <!--                    </div>-->
-                            <!--                    <div class="anima__letter"></div>-->
-                        </div>
-                    </form>
-                    <div class="popup__discount__modal-body-success-text">
-                        <p class="title-success">Check your inbox</p>
-                        <p class="subtitle">The discount is already there</p>
-                        <a href="/order/?coupon=10ASSIST" class="bold-btn butn butn-red">USE discount NOW</a>
-                        <div class="popup__discount__modal-close-button" onclick="modalPopupDiscount.closePopup(this)">I’ll, check it later</div>
-                    </div>
-                    <div class="popup__discount__modal-body-error-text">Some of your data is not valid.</div>
-                </div>
-                <div class="popup__discount__modal-footer"></div>
-            </div>
-        </div>
         <script src="js/"></script>
         <!-- jQuery -->
         <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
